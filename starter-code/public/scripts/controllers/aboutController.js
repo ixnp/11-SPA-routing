@@ -1,7 +1,9 @@
 'use strict';
 
 (function(module) {
-  const aboutController = {};
+  const aboutController = {
+    $('#articles').hide();
+  };
 
   // TODO: Define a function that hides all main section elements, and then reveals just the #about section:
 
